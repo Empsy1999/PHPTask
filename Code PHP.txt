@@ -1,0 +1,20 @@
+1.	Variables and Data Types:
+o	Write a PHP script to declare and initialize variables of different data types (integer, float, string, boolean, array).
+2.	Control Structures:
+o	Write a PHP script that takes a number as input and prints whether it is positive, negative, or zero.
+3.	Loops:
+o	Write a PHP script to print the first 10 Fibonacci numbers using a while loop.
+4.	Arrays:
+o	Write a PHP script to create an associative array with key-value pairs and print each key and value.
+5.	Functions:
+o	Write a PHP function that takes two numbers as parameters and returns their multiplication.
+6.	String Manipulation:
+o	Write a PHP script to reverse a string without using built-in functions.
+7.	Forms Handling:
+o	Write a PHP script to create a simple HTML form and process the form data using the POST method.
+8.	Sessions and Cookies:
+o	Write a PHP script to start a session and store a session variable. Retrieve and display the session variable on another page.
+9.	File Handling:
+o	Write a PHP script to read the contents of a file and display it on the webpage.
+10.	Database Connection:
+o	Write a PHP script to connect to a MySQL database, retrieve data from a table, and display it in an HTML table.
