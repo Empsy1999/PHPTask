@@ -46,4 +46,4 @@ If you encounter any issues or have any questions, feel free to open an issue on
 
 ---
 
-Thank you for using the Task Management System!
+Thank you!
