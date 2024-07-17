@@ -206,12 +206,23 @@ section {
 
 
 <body>
-    <div class="sidebar visible">
-        <h2>Menu</h2>
-        <a href="./Index.html"><button>Task Management</button></a>
-        <a href="./PHPprogrammingtask.html"><button>PHP Task</button></a>
+<button class="toggle-sidebar" onclick="toggleSidebar()">☰ Menu</button>
+    <div class="sidebar">
+        <h2>Task Management Menu</h2>
+        <button onclick="indexlink()">Task Management</button>
+        <button onclick="tasklink()">PHP Task</button>
+        <!-- Add more buttons for other sidebar actions as needed -->
     </div>
-    
+    <script>
+        function indexlink(){
+            location.href="index.php";
+        }
+        function tasklink(){
+            location.href="PHPprogrammingtask.php";
+        }
+
+
+</script>
     <button class="toggle-sidebar" onclick="toggleSidebar()">Toggle Sidebar</button>
 
 
@@ -340,7 +351,7 @@ section {
                 <pre><code>&lt;?php
             // PHP script to create and print an associative array
             $student = array(
-                "name" => "John Doe",
+                "name" => "Peter Pan",
                 "age" => 20,
                 "gender" => "Male",
                 "course" => "Computer Science"
@@ -660,7 +671,7 @@ function toggleSidebar() {
             output = `First 10 Fibonacci numbers:<br>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, `;
         } else if (sectionId === 'arrays') {
             // Simulate output for associative array
-            output = `<p>name: John Doe</p>
+            output = `<p>name: Peter Pan</p>
                       <p>age: 20</p>
                       <p>gender: Male</p>
                       <p>course: Computer Science</p>`;
@@ -679,7 +690,7 @@ function toggleSidebar() {
         } else if (sectionId === 'forms-handling') {
         // Simulate form submission
         const formData = {
-            name: 'John Doe', // Replace with actual form data for testing
+            name: 'Peter Pan', // Replace with actual form data for testing
             email: 'john.doe@example.com',
             message: 'This is a test message.'
         };
